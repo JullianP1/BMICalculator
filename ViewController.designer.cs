@@ -15,6 +15,14 @@ namespace BMICalculator
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel BMILabel { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton calculateButton { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UITextField heightTextField { get; set; }
 
         [Outlet]
@@ -23,6 +31,16 @@ namespace BMICalculator
 
         void ReleaseDesignerOutlets ()
         {
+            if (BMILabel != null) {
+                BMILabel.Dispose ();
+                BMILabel = null;
+            }
+
+            if (calculateButton != null) {
+                calculateButton.Dispose ();
+                calculateButton = null;
+            }
+
             if (heightTextField != null) {
                 heightTextField.Dispose ();
                 heightTextField = null;
