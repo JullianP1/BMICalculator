@@ -34,11 +34,13 @@
                                 <rect key="frame" x="20" y="93" width="374" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <color key="textColor" colorSpace="calibratedWhite" white="0.333333333333333" alpha="1"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Weight in kilograms" borderStyle="roundedRect" minimumFontSize="17" id="388" translatesAutoresizingMaskIntoConstraints="NO">
                                 <rect key="frame" x="20" y="160" width="374" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <color key="textColor" colorSpace="calibratedWhite" white="0.333333333333333" alpha="1"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="389" translatesAutoresizingMaskIntoConstraints="NO">
                                 <rect key="frame" x="132" y="198" width="150" height="30"/>
@@ -75,6 +77,10 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="heightTextField" destination="387" id="name-outlet-387"/>
+                        <outlet property="weightTextField" destination="388" id="name-outlet-388"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
