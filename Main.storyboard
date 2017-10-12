@@ -54,6 +54,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" colorSpace="calibratedRGB" red="0.85882352941176465" green="0.27450980392156865" blue="0.99215686274509807" alpha="1"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <color key="highlightedColor" colorSpace="calibratedRGB" red="0.49803921568627452" green="0" blue="0.49803921568627452" alpha="1"/>
+                                </variation>
                             </label>
                         </subviews>
                         <variation key="default">
@@ -81,6 +84,7 @@
                         <outlet property="heightTextField" destination="387" id="name-outlet-387"/>
                         <outlet property="weightTextField" destination="388" id="name-outlet-388"/>
                         <outlet property="calculateButton" destination="389" id="name-outlet-389"/>
+                        <outlet property="BMILabel" destination="390" id="name-outlet-390"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
