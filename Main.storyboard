@@ -30,13 +30,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Height in metres" borderStyle="roundedRect" minimumFontSize="17" id="387" translatesAutoresizingMaskIntoConstraints="NO">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="387" translatesAutoresizingMaskIntoConstraints="NO" placeholder="Height in metres">
                                 <rect key="frame" x="20" y="93" width="374" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <color key="textColor" colorSpace="calibratedWhite" white="0.333333333333333" alpha="1"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Weight in kilograms" borderStyle="roundedRect" minimumFontSize="17" id="388" translatesAutoresizingMaskIntoConstraints="NO">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="388" translatesAutoresizingMaskIntoConstraints="NO" placeholder="Weight in kilograms">
                                 <rect key="frame" x="20" y="160" width="374" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -50,7 +50,7 @@
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="390" translatesAutoresizingMaskIntoConstraints="NO">
-                                <rect key="frame" x="148" y="350" width="117" height="35"/>
+                                <rect key="frame" x="0.0" y="350" width="414" height="35"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" colorSpace="calibratedRGB" red="0.85882352941176465" green="0.27450980392156865" blue="0.99215686274509807" alpha="1"/>
                                 <nil key="highlightedColor"/>
