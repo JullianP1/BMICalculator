@@ -23,7 +23,9 @@ namespace BMICalculator
             float height = float.Parse(heightTextField.Text);
             float weight = float.Parse(weightTextField.Text);
 
-            float bmi
+            float bmi = (weight / (height * height));
+
+            BMILabel.Text = bmi.ToString();
         }
 
         public override void DidReceiveMemoryWarning()
